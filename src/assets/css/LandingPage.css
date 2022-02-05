@@ -1,0 +1,13 @@
+.section-1-content {
+  margin-top: -40px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+@media (min-width: 87.5em) {
+  .section-1-img {
+    position: fixed;
+    top: 64px;
+    left: 0;
+  }
+}

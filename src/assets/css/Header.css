@@ -1,0 +1,15 @@
+.navbar {
+  min-height: 64px;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+@media (max-width: 576px) {
+  .navbar-collapse {
+    text-align: center;
+    background: lightgreen;
+    border-radius: 5px;
+  }
+}

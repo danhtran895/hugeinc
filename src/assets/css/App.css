@@ -1,0 +1,154 @@
+@import "./Header.css";
+@import "./LandingPage.css";
+
+.nikko-am-container {
+  margin-top: 106px;
+}
+
+.bg-primary {
+  background: #00a4b8 !important;
+}
+
+.bg-white-5 {
+  background: rgba(255, 255, 255, 0.5) !important;
+}
+
+.not-allowed {
+  cursor: not-allowed;
+}
+
+.text-none {
+  text-transform: none !important;
+}
+
+.font-weight-bold {
+  font-weight: 700 !important;
+}
+
+.min-w-75 {
+  min-width: 75% !important;
+}
+
+.text-secondary {
+  color: #474747 !important;
+}
+
+.text-gray {
+  color: #8a8a8a !important;
+}
+
+.w-10 {
+  width: 10%;
+}
+
+.max-w-fit-content {
+  max-width: fit-content;
+}
+
+.max-w-662 {
+  max-width: 662px;
+}
+
+.pt-42px {
+  padding-top: 42px;
+}
+
+.px-4p {
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
+.circle-right {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  border: 1px solid #00a4b8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #00a4b8;
+}
+
+.MuiButton-textPrimary:hover {
+  color: #00a4b8;
+}
+
+.MuiButton-textInfo:hover {
+  color: #fff;
+}
+
+.MuiTabs-flexContainerVertical {
+  align-items: flex-end;
+}
+
+.no-hover:hover {
+  background: transparent !important;
+}
+
+.MuiTabs-indicator {
+  background: transparent !important;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.flex-2 {
+  flex: 2;
+}
+
+.display-3 {
+  font-size: calc(1.525rem + 3.3vw) !important;
+  line-height: 1.2 !important;
+  color: rgba(0, 164, 184, 0.2) !important;
+}
+
+.Mui-selected.display-3 {
+  color: rgba(0, 164, 184, 1) !important;
+}
+
+.text-primary {
+  color: rgb(0, 164, 184) !important;
+}
+
+/* Breakpoints: Medium (md) */
+@media (min-width: 48em) {
+  .min-w-md-0 {
+    min-width: 0 !important;
+  }
+
+  .border-md-left {
+    border-left: 1px solid;
+  }
+}
+
+/* Breakpoints: Extra extra large (xxl) */
+@media (min-width: 87.5em) {
+  .nikko-am-container {
+    margin-top: 64px;
+  }
+
+  .w-xxl-30 {
+    width: 30%;
+  }
+
+  .border-xxl-top {
+    border-top: 1px solid #dee2e6;
+  }
+
+  .border-xxl-bottom {
+    border-bottom: 1px solid #dee2e6;
+  }
+
+  .vh-100-header {
+    min-height: calc(100vh - 64px);
+  }
+
+  .ml-xxl-5p {
+    margin-left: 5%;
+  }
+
+  .mr-xxl-5p {
+    margin-right: 5%;
+  }
+}
